@@ -1,0 +1,31 @@
+This repository contains two fundamental searching algorithms implemented in C++:
+
+Linear Search: Linear Search is a simple searching algorithm that checks each element of the array one by one until the desired element is found or the list ends.
+      
+              🔹How linear search works -
+
+                    i. Start from the first element.
+                    ii. Compare each element with the target value.
+                    iii. If found, return the index.
+                    iv. If not found after checking all elements, return "Not Found".
+
+🔹 Time Complexity
+      - Best Case: O(1)
+      - Worst Case: O(n)
+
+🔹 Suitable For
+   - Small datasets
+   - Unsorted arrays
+2. Binary Search: Binary Search is an efficient searching algorithm that works only on sorted arrays. It repeatedly divides the search interval into halves.
+🔹 How binary search works -
+      i. Find the middle element.
+      ii. If the target equals the middle element → Found.
+      iii. If target is smaller → Search left half.
+      iv. If target is larger → Search right half.
+      v. Repeat until found or interval becomes empty.
+🔹 Time Complexity
+     - Best Case: O(1)
+     - Worst Case: O(log n)
+🔹 Suitable For
+      - Large datasets
+      - Sorted arrays
