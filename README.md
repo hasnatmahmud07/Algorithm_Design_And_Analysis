@@ -5,5 +5,5 @@ This repository is created as part of my Data Structures and Algorithms (DSA) co
 ## Contents:
 - Linear Search (C++)
 - Binary Search (C++)
-- 
+  
 Author: HASNAT MAHMUD FAHIM (cse15)
